@@ -1,0 +1,343 @@
+@media screen and (max-width: 768px) {
+
+    html {
+
+        height: auto;
+        width: 335px;
+        margin: auto;
+    }
+
+    .right-side {
+        margin: 0;
+        width: 335px;
+    }
+
+    .side-bar {
+        display: none;
+    }
+
+    .part1 {
+        margin: 0;
+        margin-left: 16px;
+        width: 335px;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .musique {
+        width: 335px;
+        margin-bottom: 32px;
+    }
+
+    .musique-ico {
+        font-size: 34px;
+    }
+
+    .reset-btn {
+        width: 192px;
+        margin: auto;
+        margin-top: -56px;
+        justify-content: flex-start;
+    }
+
+    .musique-txt {
+        font-size: 20px;
+    }
+
+    .musique-txt-off {
+        font-size: 20px;
+    }
+
+    .txt-p1 {
+        font-size: 24px;
+        height: auto;
+        width: auto;
+    }
+
+    .txt-p2 {
+        margin: 0;
+        font-size: 44px;
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+
+    .txt-et {
+        display: flex;
+        align-content: center;
+        text-align: center;
+    }
+
+    .txt-p1-m {
+        font-size: 18px;
+        margin: 0;
+        margin-bottom: 16px;
+        width: 335px;
+        margin-top: 8px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+
+
+    .contactez-moi {
+        margin: 0;
+        height: 60px;
+        width: 240px;
+        font-size: 18px;
+
+    }
+
+    .column-scroll {
+        width: auto;
+        margin: auto;
+        margin-top: 16px;
+
+    }
+
+    .portfolio-section {
+        margin: 0;
+        width: 335px;
+    }
+
+    .portfolio-title {
+
+        font-size: 56px;
+        text-align: center;
+        margin-top: 16px;
+        margin-left: auto;
+    }
+
+    .portfolio-desc {
+        text-align: center;
+        margin: auto;
+        margin-bottom: 42px;
+    }
+
+    .sub-title {
+        margin-left: 30px;
+        font-size: 34px;
+        text-align: center;
+        margin-bottom: 16px;
+        margin: auto;
+    }
+
+    .pwtop {
+        height: auto;
+        flex-direction: column;
+        margin-bottom: 16px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+        margin: 0;
+    }
+
+    .pwbot {
+        height: auto;
+        flex-direction: column;
+        margin-bottom: 16px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+        margin: 0;
+    }
+
+
+    .imgp1 {
+        margin: 0;
+        margin-top: 16px;
+    }
+
+    .case-projet-designer-section {
+        margin-top: 2050px;
+    }
+
+    .qui-suis-je {
+        width: 335px;
+        margin-top: 32px;
+        margin-bottom: 60px;
+    }
+
+    .img-txt-qui {
+        margin: auto;
+
+    }
+
+    .back-qui-suis-je img {
+        margin: 0;
+        margin-top: 320px;
+        height: 80px;
+        width: 80px;
+        margin-left: 16px;
+
+    }
+
+    .title-qui-suis-je {
+        font-size: 28px;
+        margin-top: 20;
+        margin-bottom: 4px;
+    }
+
+    .presentation-txt {
+        font-size: 14px;
+        margin-right: 16px;
+    }
+
+
+
+
+
+    .skills-section {
+        width: 335px;
+        margin-left: 20px;
+        margin: 0;
+    }
+
+    .portfolio-title-skills {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .skills1 {
+        width: 300px;
+        font-size: 14px;
+    }
+
+    .skills2 {
+        width: 300px;
+        font-size: 14px;
+    }
+
+    .pins-skills {
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+        width: 335px;
+        align-items: center;
+        margin-left: 20px;
+        margin-bottom: 0;
+        margin: 0;
+    }
+
+
+    .part-skills {
+        margin: auto;
+    }
+
+    .title-part-skills {
+        font-size: 34px;
+        margin-top: 16px;
+    }
+
+    .desc-part-skills {
+        font-size: 20px;
+    }
+
+
+    .last-part {
+        width: 335px;
+        margin: 0;
+    }
+
+
+    .contact-section {
+        width: 335px;
+        margin-top: 0;
+        text-align: center;
+        margin-left: 20px;
+        height: 700px;
+        margin: 0;
+        margin-top: 38px;
+    }
+
+    .contact-me-text {
+        font-size: 48px;
+        width: auto;
+        margin: auto;
+    }
+
+    #name {
+        width: 314px;
+        margin-right: 0;
+    }
+
+    #email {
+        width: 314px;
+        margin-right: 0;
+    }
+
+    #objet {
+        width: 314px
+    }
+
+    .form1 {
+        flex-direction: column;
+    }
+
+    #message {
+        width: 314px;
+    }
+
+    #submit {
+        width: 314px;
+        margin: auto;
+    }
+
+    .contact {
+        margin-left: 6px;
+        width: auto;
+        margin: auto;
+    }
+
+    .last-part {
+        flex-direction: column;
+    }
+
+    .submit-ct {
+        width: auto;
+        margin: auto;
+    }
+
+
+
+    .map-contact {
+        margin: 0;
+        height: 460px;
+        width: auto;
+    }
+
+    .contact-map {
+        width: 335px;
+        height: 460px;
+    }
+
+    .card-contact {
+        left: 20px;
+        top: 10748px;
+    }
+
+    .footer-background {
+        margin-top: 48px;
+    }
+
+}
+
+/* Toparrow */
+
+.going_up_arrow_section {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.going-up-arrow {
+    display: flex;
+    justify-content: center;
+}
+
+.up-arrow-txt-deco {
+display: flex;
+justify-content: center;
+}

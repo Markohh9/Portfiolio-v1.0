@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/tablette.css">
+
+
+    <script src="https://kit.fontawesome.com/0419a1702a.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Portfolio MARTINI Marco</title>
+</head>
+
+<body>
+
+    <div id="cursor-trail">
+
+        <div class="page">
+
+            <div class="side-bar">
+
+                <a class="black-box" href="index.html">
+                    <img class="img-mm" src="./src/img/Logotype-MARTINI-Marco-portfolio.svg"
+                        alt="logotype-martini-marco-portfolio">
+                </a>
+
+
+
+
+                <!-- Coté gauche-->
+                <div class="grey-box">
+                    <div class="menu-nav">
+                        <a class="portfolio" href="#portfolio-on">
+                            <p class="menu-txt">PORTFOLIO</p>
+                        </a>
+                        <a class="nav-space" href="#apropos">
+                            <p class="menu-txt"> A PROPOS DE MOI</p>
+                        </a>
+                        <a class="nav-space" href="#skillme">
+                            <p class="menu-txt"> MES SKILLS</p>
+                        </a>
+                        <a class="nav-space" href="#contactme">
+                            <p class="menu-txt"> CONTACT</p>
+                        </a>
+                        <div class="icone">
+                            <a href="https://github.com/Markohh9" target="_blank">
+                                <i class="fa-brands fa-github ico"> </i></a>
+                            <a href="https://www.linkedin.com/in/marco-martini-17a4281b0/" target="_blank">
+                                <i class="fa-brands fa-linkedin ico"></i>
+                            </a>
+                            <a class="portfolio" href="./src/docs/CV-2023-MARTINI-MARCO.pdf">
+                                <p class="menu-txt">Mon CV</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Coté droit-->
+            <div class="right-side">
+
+                
+
+                <!-- responsive burger -->
+
+                <ul class='nav-bar-responsive'>
+                    <input type='checkbox' id='check' />
+                    <span class="menu">
+                        <li><a href="./src/docs/CV-2023-MARTINI-MARCO.pdf">Mon CV</a></li>
+                        <li><a href="#portfolio-on">Portfolio</a></li>
+                        <li><a href="#apropos">A Propos de moi</a></li>
+                        <li><a href="#skillme">Mes Skills</a></li>
+                        <li><a href="#contactme">Contact</a></li>
+                        <li><a href="https://github.com/Markohh9">Github</a></li>
+                        <li><a href="https://www.linkedin.com/in/marco-martini-17a4281b0/">LinkedIn</a></li>
+                        <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                    </span>
+                    <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+                </ul>
+
+                <!-- Part1-->
+
+                <div class="musique reveal">
+                    <audio id="audio" class="musique">
+                        <source src="./src/msc/musique.mp3" type="audio/mpeg">
+                    </audio>
+                    <button id="musique-btn" class="reset-btn">
+                        <i id="musique" class="musique-ico fa-solid fa-music musique-hover"></i>
+                        <span id="musique1" class="musique-txt musique-hover">Musique </span>
+                        <span id="Off" class="musique-txt-off musique-hover">Off</span>
+                    </button>
+                </div>
+
+                <div class="part1">
+                    <p class="txt-p1 reveal">BONJOUR,</p>
+                    <div class="p2 reveal">
+                        <p class="txt-p1">JE SUIS </p>
+                        <p class="txt-p1 txt-faded">MARCO </p>
+                    </div>
+                    <div class="txt-et reveal">
+                        <div class="txt-metier">
+                            <p class="txt-p1"> DEVELOPPEUR WEB</p>
+                            <p class="txt-p1"> DESIGNER GRAPHIQUE</p>
+                        </div>
+                        <p class="txt-p2">&</p>
+                    </div>
+                    <p class="txt-p1-m reveal-2">Developpeur Front-End / Illustrateur Metteur en Page</p>
+                    <a href="#contactme">
+                        <button class="contactez-moi reveal-3" style="--clr:#62edff">
+                            CONTACTEZ MOI !
+                        </button>
+                    </a>
+                </div>
+
+                <div class="column-scroll reveal-2">
+                    <div class="scroll-left">
+                        <p class="txt-scroll">S</p>
+                        <p class="txt-scroll">C</p>
+                        <p class="txt-scroll">R</p>
+                        <p class="txt-scroll">O</p>
+                        <p class="txt-scroll">L</p>
+                        <p class="txt-scroll">L</p>
+                        <br>
+                        <p class="txt-scroll">D</p>
+                        <p class="txt-scroll">O</p>
+                        <p class="txt-scroll">W</p>
+                        <p class="txt-scroll">N</p>
+                        <br>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+
+                    <div class="scroll-right reveal">
+                        <p class="txt-scroll">S</p>
+                        <p class="txt-scroll">C</p>
+                        <p class="txt-scroll">R</p>
+                        <p class="txt-scroll">O</p>
+                        <p class="txt-scroll">L</p>
+                        <p class="txt-scroll">L</p>
+                        <br>
+                        <p class="txt-scroll">D</p>
+                        <p class="txt-scroll">O</p>
+                        <p class="txt-scroll">W</p>
+                        <p class="txt-scroll">N</p>
+                        <br>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+
+                <div class="portfolio-section" id="portfolio-on">
+                    <h1 class="portfolio-title reveal">Mon Portfolio</h1>
+                    <p class="portfolio-desc reveal-1">Retrouvez-ici mes projets tel que les sites internets que j'ai
+                        réalisé
+                        mais aussi
+                        les projets liés à la conception Graphique.</p>
+                    <h2 class="sub-title reveal-2">Développeur WEB</h2>
+                    <div class="case-projet-web-section reveal-4">
+                        <div class="pwtop">
+
+                            <a href="https://markohh9.github.io/P2-Booki/" target="_blank" class="imgp1">
+                                <img src="./src/img/img_projet1_developpeur-web-html-css.svg"
+                                    alt="projet-developpeur-web-html-css-javascript-site-internet">
+                                <div class="middle">
+                                    <div class="text-middle">Projet Booki</div>
+                                </div>
+
+                            </a>
+
+                            <a href="https://markohh9.github.io/Projet-n-3-OpenClassroom-HTML-CSS-SASS/" target="_blank"
+                                class="imgp1">
+                                <img src="./src/img/img_projet2_developpeur-web-html-css.svg"
+                                    alt="projet-developpeur-web-html-css-javascript-site-internet">
+                                <div class="middle">
+                                    <div class="text-middle">Oh My Food!</div>
+                                </div>
+                            </a>
+
+
+                            <a href="https://markohh9.github.io/Projet-n-4-OpenClassroom-HTML-CSS-SEO/" target="_blank"
+                                class="imgp1">
+                                <img src="./src/img/img_projet3_developpeur-web-html-css.svg"
+                                    alt="projet-developpeur-web-html-css-javascript-site-internet">
+                                <div class="middle">
+                                    <div class="text-middle">La Panthère</div>
+                                </div>
+                            </a>
+
+
+                            <a href="https://markohh9.github.io/Projet-Perso-n-1-To-Do-List/" target="_blank"
+                                class="imgp1">
+                                <img src="./src/img/img_projet4_developpeur-web-html-css.svg"
+                                    alt="projet-developpeur-web-html-css-javascript-site-internet">
+                                <div class="middle">
+                                    <div class="text-middle">ToDoList Training JS</div>
+                                </div>
+                            </a>
+
+                        </div>
+
+                        <div class="pwbot">
+                            <div class="imgp1">
+                                <img src="./src/img/img_projet5_developpeur-web-html-css.svg"
+                                    alt="projet-developpeur-web-html-css-javascript-site-internet">
+                                <div class="middle">
+                                    <div class="text-middle">Projet Kanaap</div>
+                                </div>
+                            </div>
+                            <div class="imgp1">
+                                <img src="./src/img/img_projet6_developpeur-web-html-css.svg"
+                                    alt="projet-developpeur-web-html-css-javascript-site-internet">
+                                <div class="middle">
+                                    <div class="text-middle">Piiquante</div>
+                                </div>
+                            </div>
+                            <a href="https://markohh9.github.io/Markohh9-Projet-Perso-n-2-TicTacToe/" target="_blank"
+                                class="imgp1">
+                                <img src="./src/img/img_projet7_developpeur-web-html-css.svg"
+                                    alt="projet-developpeur-web-html-css-javascript-site-internet">
+                                <div class="middle">
+                                    <div class="text-middle">Morpion Training JS</div>
+                                </div>
+                            </a>
+                            <a href="https://markohh9.github.io/Projet7-Kasa/" target="_blank" class="imgp1">
+                                <img src="./src/img/img_projet8_developpeur-web-html-css.png"
+                                    alt="projet-developpeur-web-html-css-javascript-site-internet">
+                                <div class="middle">
+                                    <div class="text-middle">PROJET Kasa</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="case-projet-designer-section">
+                        <h3 class="sub-title reveal">Designer Graphique</h3>
+                        <div class="pwtop reveal-1">
+
+                            <a href="./src/docs/StageTechExpress.pdf" target="_blank" class="imgp1">
+                                <img src="./src/img/img_projet1_illustrateur-web-html-css.png"
+                                    alt="projet-illustrateur-web-html-css-javascript-site-internet">
+                                <div class="middle">
+                                    <div class="text-middle">Logo TechExpress</div>
+                                </div>
+                            </a>
+
+
+                            <a href="./src/docs/Affiche-Le-Joker-Photoshop-Illustrateur.pdf" target="_blank"
+                                class="imgp1">
+                                <img src="./src/img/img_projet2_illustrateur-web-html-css.png"
+                                    alt="projet-illustrateur-web-html-css-javascript-site-internet">
+                                <div class="middle">
+                                    <div class="text-middle">Affiche Le Joker</div>
+                                </div>
+                            </a>
+
+
+                            <a href="./src/docs/Illustration-Logo-Illustrator.pdf" target="_blank" class="imgp1">
+                                <img src="./src/img/img_projet3_illustrateur-web-html-css.png"
+                                    alt="projet-illustrateur-web-html-css-javascript-site-internet">
+                                <div class="middle">
+                                    <div class="text-middle">Pizzeria Hell Fire</div>
+                                </div>
+                            </a>
+
+                            <a href="./src/docs/Affiche-old-school-Illustrator.pdf" target="_blank" class="imgp1">
+                                <img src="./src/img/img_projet4_illustrateur-web-html-css.png"
+                                    alt="projet-illustrateur-web-html-css-javascript-site-internet">
+                                <div class="middle">
+                                    <div class="text-middle">Affiche Vintage</div>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="pwbot reveal-2">
+
+                            <a href="./src/docs/Affiche-Disney-Adobe-Photoshop-MARTINI-Marco.pdf" target="_blank"
+                                class="imgp1">
+                                <img src="./src/img/img_projet5_illustrateur-web-html-css.png"
+                                    alt="projet-developpeur-web-html-css-javascript-site-internet">
+                                <div class="middle">
+                                    <div class="text-middle">Affichage Disney</div>
+                                </div>
+                            </a>
+
+                            <a href="./src/docs/projet-STAPS-Nancy-Illustrator-Photoshop.pdf" target="_blank"
+                                class="imgp1">
+                                <img src="./src/img/img_projet6_illustrateur-web-html-css.png"
+                                    alt="projet-developpeur-web-html-css-javascript-site-internet">
+                                <div class="middle">
+                                    <div class="text-middle">STAPS LORRAINE</div>
+                                </div>
+                            </a>
+
+                            <a href="./src/docs/Projet-CuriosityCab-Studio-de-jeux-Vidéo.pdf" target="_blank"
+                                class="imgp1">
+                                <img src="./src/img/img_projet7_illustrateur-web-html-css.png"
+                                    alt="projet-developpeur-web-html-css-javascript-site-internet">
+                                <div class="middle">
+                                    <div class="text-middle">Studio de Jeux-Vidéos</div>
+                                </div>
+                            </a>
+
+                            <a href="./src/docs/LogoFolio-Licence-Adobe-MARTINI-Marco.pdf" target="_blank"
+                                class="imgp1">
+                                <img src="./src/img/img_projet8_illustrateur-web-html-css.png"
+                                    alt="projet-developpeur-web-html-css-javascript-site-internet">
+                                <div class="middle">
+                                    <div class="text-middle">LogoFolio</div>
+                                </div>
+                            </a>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="qui-suis-je" id="apropos">
+                    <div class="back-qui-suis-je">
+                        <div class="img-txt-qui reveal">
+                            <img src="./src/img/photo-illustration-développeurWEB-MARTINI-Marco-Nancy.svg"
+                                alt="illustration-creation-de-site-et-designe-web">
+                            <div class="txt-qui">
+                                <h4 class="title-qui-suis-je reveal"> QUI SUIS-JE?</h4>
+                                <p class="presentation-txt reveal"> Je suis Marco MARTINI, <br>
+                                    Developpeur WEB mais également Graphique Designer <br>
+                                    et Illustrateur situé à Nancy.
+                                    J'aime beaucoup l'art dans toutes ses formes et pour moi,<br>
+                                    le web est de l'art. <br>
+                                    Tout a besoin d'être analysé afin de s'inspirer et comprendre, <br>
+                                    pour ne jamais cesser d'évoluer dans ce domaine.<br>
+                                    Toujours dans le but de m'améliorer chaque jour afin de
+                                    devenir meilleur,<br>
+                                    Mon but est de me surpasser à chaque instant en m'inspirant et,<br>
+                                    repoussant toujours mes limites !</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-section" id="skillme">
+
+                    <p class="portfolio-title-skills reveal">Mes Skills</p>
+                    <div class="skills1 reveal-1">
+                        <p class="skills-txt">HTML</p>
+                    </div>
+                    <div class="right-section-skill reveal-1">
+                        <div class="skills2">
+                            <p class="skills-txt">CSS</p>
+                        </div>
+                    </div>
+                    <div class="skills1 reveal-2">
+                        <p class="skills-txt">JavaScript</p>
+                    </div>
+                    <div class="right-section-skill reveal-2">
+                        <div class="skills2">
+
+                            <p class="skills-txt">React.JS</p>
+                        </div>
+                    </div>
+                    <div class="skills1 reveal-3">
+                        <p class="skills-txt">Node.JS</p>
+                    </div>
+                    <div class="right-section-skill reveal-3">
+                        <div class="skills2">
+
+                            <p class="skills-txt">SEO</p>
+                        </div>
+                    </div>
+                    <div class="skills1 reveal-3">
+                        <p class="skills-txt">Licence Adobe / Photoshop / Illustrator</p>
+                    </div>
+                </div>
+
+                <div class="pins-skills">
+
+
+
+                    <div class="part-skills">
+                        <img src="/src/img/rapide.svg" class="reveal" alt="">
+                        <p class="title-part-skills reveal-1">Rapide</p>
+                        <p class="desc-part-skills reveal-2">Ma priorité reste la rapidité<br>
+                            pour des temps de chargement <br>
+                            rapides et une interraction avec <br>
+                            l'utilisateur sans décalage ni <br>
+                            ni problème de fluiditée</p>
+                    </div>
+
+                    <div class="part-skills">
+                        <img src="/src/img/responsive.svg" class="reveal" alt="">
+                        <p class="title-part-skills reveal-1">Responsive</p>
+                        <p class="desc-part-skills reveal-2">Le Responsive Design est très<br>
+                            important et c’est également l’une <br>
+                            de mes prioritée afin que tout les sites<br>
+                            internets soient acccessible<br> correctement depuis n’importe
+                            quelle Plateforme </p>
+                    </div>
+                    <div class="part-skills">
+                        <img src="/src/img/creatif.svg" class="reveal" alt="">
+                        <p class="title-part-skills reveal-1">Créatif</p>
+                        <p class="desc-part-skills reveal-2">La créativitée et le changement<br>
+                            sont des valeurs que j’apprécie <br>
+                            énormément et j’essaie de le faire <br>
+                            ressentir a travers tout mes <br>
+                            Projets !</p>
+                    </div>
+                    <div class="part-skills">
+                        <img src="src/img/fusee.svg" class="reveal" alt="">
+                        <p class="title-part-skills reveal-1">Dynamique</p>
+                        <p class="desc-part-skills reveal-2">En parlant de Projets,<br>
+                            J’aime donner vie à ceux-ci en les<br>
+                            rendant dynamiques, fluide et<br>
+                            fluide et agréable<br>
+                            pour les utilisateurs !</p>
+                    </div>
+                </div>
+
+
+                <div class="going_up_arrow_section">
+                    <a href="" class="up-arrow-txt-deco"> <i class="fa-solid fa-arrow-up going-up-arrow" style="display: flex; align-items: center; justify-content: center;"></i> </a>
+                </div>
+
+
+
+                <div class="last-part" id="contactme">
+
+                    <div class="contact-section">
+                        <p class="contact-me-text reveal">Contactez-Moi</p>
+
+                        <form action="send-email.php" method="post" class="contact">
+                            <div class="form1 reveal-1">
+                                <label for="name">
+                                    <input type="text" id="name" name="name" placeholder="Nom" required>
+                                </label>
+                                <label for="email">
+                                    <input type="text" id="email" name="email" placeholder="Email" required>
+                                </label>
+                            </div>
+                            <div class="form2 reveal-2">
+                                <label for="objet">
+                                    <input type="text" id="objet" name="objet" placeholder="Objet" required>
+                                </label>
+                            </div>
+                            <div class="form3 reveal-2">
+                                <label for="message">
+                                    <input type="text" id="message" name="message" placeholder="Message (540 caractères Maximum)" required>
+                                </label>
+                            </div>
+                            <div class="form4 reveal-3">
+                                <label for="submit" class="submit-ct">
+                                    <input style="--clr:#62edff" type="submit" id="submit" name="submit"
+                                        placeholder="Envoyer" required>
+                                </label>
+                            </div>
+
+                            
+                        </form>
+                    </div>
+
+                    <div class="map-contact">
+                        <img src="/src/img/map.svg" alt="" class="contact-map reveal">
+                        <div class="card-contact">
+                            <div class="txt-card-background reveal-2">
+                                <p class="contact-cards">Martini Marco <br>
+                                    Nancy, France <br>
+                                    <a class="contact-cards" style="text-decoration: none;"
+                                        href="mailto:marco.m2011@hotmail.fr">Marco.m2011@hotmail.fr</a>
+                                    <a class="contact-cards" style="text-decoration: none;"
+                                        href="tel:+33649293913">06.49.29.39.13</a> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--fermeture div rightside-->
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-background">
+            <div class="txt-footer reveal-3">
+                <p class="center-footer">© 2022-2023 - MARTINI Marco</p>
+            </div>
+        </div>
+
+    </footer>
+
+</html>
+
+<script src="./js/index.js"></script>
+<script src="./js/cursor.js"></script>
+<script src="./js/scroll-animation.js"></script>
+
+</body>
+
+</html>
